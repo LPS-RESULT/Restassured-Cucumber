@@ -5,6 +5,7 @@ This project provides an API testing framework using Restassured and Cucumber.
 This project uses Oxford Dictionaries API for test purposes. The Oxford Dictionaries API allows easy access to our world-renowned dictionary content.
 
 #### Cloning Repository
+- Pre-requisite: GIT should be installed successfully(To check whether or not you have git installed, simply open a terminal window and type "git --version".)
 - Create a new working directory folder called for e.g. GIT Repositories or use any existing folder to clone the repository
 - Open command prompt or git bash and navigate to the working directory.
 - Enter command "git clone https://github.com/LPS-RESULT/Restassured-Cucumber.git"
