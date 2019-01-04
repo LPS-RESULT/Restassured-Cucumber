@@ -40,8 +40,9 @@ dependencies {
     compile "org.apache.poi:poi-ooxml:3.17"
 
 
-    task TestRunner(type: Test) << {
-        include "TestRunner.class"
+    test {
+        testLogging.showStandardStreams = true
+        systemProperties System.getProperties()
     }
 
 }
