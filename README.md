@@ -14,8 +14,8 @@ This project uses Oxford Dictionaries API for test purposes. The Oxford Dictiona
 #### Running Tests using command line
 - Open command prompt and navigate to the cloned Restassured-Cucumber directory
 - Use the following commands to run tests with different cucumber tags
-  gradle test --> Runs all tests
-  gradle -Dcucumber.options="--tags @SmokeTests" test --> Runs all tests that have been tagged as Smoke Tests
+  gradle test --> Runs all tests.  
+  gradle -Dcucumber.options="--tags @SmokeTests" test --> Runs all tests that have been tagged as Smoke Tests.  
   gradle -Dcucumber.options="--tags @RegressionTests" test --> Runs all tests that have been tagged as Regression Tests
   
   
